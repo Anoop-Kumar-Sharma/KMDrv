@@ -76,18 +76,17 @@ typedef struct _Request {
 
 1.  Open handle:
 
-```{=html}
-<!-- -->
+
+```cpp
+CreateFile("\\.\KMDrv", ...)
 ```
-    CreateFile("\\.\KMDrv", ...)
 
 2.  Send IOCTL:
 
-```{=html}
-<!-- -->
-```
-    DeviceIoControl(...)
 
+```cpp
+DeviceIoControl(...)
+```
 ------------------------------------------------------------------------
 
 ## Important Notes
