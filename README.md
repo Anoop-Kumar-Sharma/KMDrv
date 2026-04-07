@@ -77,14 +77,14 @@ typedef struct _Request {
 1.  Open handle:
 
 
-```cpp
+```c
 CreateFile("\\.\KMDrv", ...)
 ```
 
 2.  Send IOCTL:
 
 
-```cpp
+```c
 DeviceIoControl(...)
 ```
 ------------------------------------------------------------------------
